@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 		Toast.makeText(this, "App on Restart", Toast.LENGTH_SHORT).show();
 	}
 
+
 	@Override
 	protected void onResume() {
 		super.onResume();
