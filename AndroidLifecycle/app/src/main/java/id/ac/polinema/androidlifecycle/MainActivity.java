@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 	@Override
-	protected void onPause() {
+	protected void onPause(){
 		super.onPause();
 		Toast.makeText(this, "App on Pause", Toast.LENGTH_SHORT).show();
 	}
